@@ -1,10 +1,10 @@
 let button = 'Klik!';
 console.log(button);
 
-let myHeading = document.querySelector('button');
-console.log(myHeading);
+let myButton = document.querySelector('button');
+console.log(myButton);
 
-myHeading.textContent = 'Klik!';
-myHeading.onclick = function() {
+myButton.textContent = 'Klik!';
+myButton.onclick = function() {
     alert("Klik działa!");
 }
